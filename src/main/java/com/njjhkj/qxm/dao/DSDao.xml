@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.njjhkj.qxm.dao.DSDao">
+    <select id="selectDSByDsId" resultType="DS">
+        select a.dsId,a.prize,b.openid,b.name,b.comment,b.dsSc,b.imgTx,b.tj,b.numberDd from  ds_fwxm_gr a LEFT JOIN ds b on a.dsId=b.dsId where a.idFwxm=#{idFwxm} and b.state=1
+    </select>
+</mapper>

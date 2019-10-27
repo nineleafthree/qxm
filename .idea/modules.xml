@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/Downloads/08-springboot/SpringBoot-01/代码/04-ssrm-redis/04-ssrm-redis.iml" filepath="$USER_HOME$/Downloads/08-springboot/SpringBoot-01/代码/04-ssrm-redis/04-ssrm-redis.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/08-springboot/SpringBoot-01/代码/08-thymeleaf-ssrm/08-thymeleaf-ssrm.iml" filepath="$USER_HOME$/Downloads/08-springboot/SpringBoot-01/代码/08-thymeleaf-ssrm/08-thymeleaf-ssrm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qxm.iml" filepath="$PROJECT_DIR$/qxm.iml" />
+    </modules>
+  </component>
+</project>

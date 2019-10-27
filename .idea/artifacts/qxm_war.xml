@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="qxm:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>qxm</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="qxm-qxm01.war">
+      <element id="artifact" artifact-name="qxm:war exploded" />
+    </root>
+  </artifact>
+</component>
